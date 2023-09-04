@@ -3,8 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.stopwatch-outer-container {
+.outer-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +13,7 @@
   background-color: #f0f0f0;
 }
 
-.stopwatch-container {
+.inner-container {
   border: 2px solid #333;
   padding: 20px;
   background-color: #fff;
@@ -63,4 +64,10 @@ button:hover {
 
 .btn.pause:hover {
   background-color: #bb2d3b;
+}
+
+
+
+.title{
+  padding: 10px 10px 20px 10px;
 }
